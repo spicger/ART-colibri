@@ -28,18 +28,35 @@
     .container {
         max-width: 960px;
         width: 100%;
+
     }
 
-    .menu-toggle {
+    .header-logoo {
         display: none;
     }
+
+
+
+
 }
 
 @media (min-width: 1200px) {
     .container {
-        
+
         max-width: 1140px;
         width: 100%;
+
+    }
+
+
+    .header-link {
+        border: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    .header-logoo {
+        display: none;
     }
 }
 
@@ -47,17 +64,145 @@
     .container {
         max-width: 1380px;
         width: 100%;
+
     }
+
+    .header-logoo {
+        display: none;
+    }
+
+    .header-link {
+        border: 0 !important;
+        padding: 0 !important;
+    }
+
+    .rectangle2 {
+        display: none !important;
+    }
+
+
 }
+
+@media (max-width: 1880px) {
+    
+
+    .header-intro-form-inputt {
+        display: none !important;
+    }
+    .rectangle2 {
+        display: none !important;
+    }
+} 
+
+
 
 
 @media (max-width: 1199px) {
-    
-.header-intro-form-input {
-    padding: 19px 100px 20px 18px !important;
+
+
+
+
+    .rectangle2 {
+        display: none !important;
+    }
+
+
+
+
+    .header-list {
+        display: flex;
+        column-gap: 35px !important;
+    }
+
+    .header-list-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    .header-text-wrap {
+        justify-content: space-between !important;
+    }
+
+    .header-a-wrap {
+        display: flex !important;
+        flex-direction: row !important;
+        column-gap: 20px;
+
+    }
+
+    .bag-logo {
+        display: none;
+
+    }
+
+
+
+
 }
-   
 
 
-    
+
+
+
+@media (max-width: 991px) {
+    .header-list {
+        overflow-y: scroll !important;
+        display: flex !important;
+    }
+
+
+    .list {
+
+        display: flex !important;
+        flex-direction: column !important;
+        position: fixed !important;
+        background-color: aqua !important;
+        top: 0 !important;
+        left: -100% !important;
+        row-gap: 10px !important;
+        padding: 20px 20px !important;
+        height: 100% !important;
+    }
+
+
+    .rectangle2:focus+.list {
+        left: 0 !important;
+    }
+
+
+
+
+
+    .header-logo img {
+
+        display: none !important;
+    }
+
+    .rectangle2 {
+        display: flex !important;
+        order: -1 !important;
+
+    }
+
+    .list-wrapper {
+
+
+        border-bottom: 1px solid #EEEEEE !important;
+        padding-right: 10px !important;
+    }
+
+    .list-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .header-button {
+        display: none !important;
+    }
+
+    .header-intro-form-input {
+        display: none !important;
+    }
+
 }

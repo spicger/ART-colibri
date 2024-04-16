@@ -36,6 +36,7 @@ input {
 }
 
 
+
 .container {
     margin: 0 auto;
     max-width: 1380px;
@@ -45,6 +46,7 @@ input {
 .list-wrapper {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -82,6 +84,12 @@ input {
     display: flex;
 }
 
+.header-link {
+    border: 1px solid #EEEEEE;
+    padding: 15px 10px;
+    border-radius: 29px;
+}
+
 .header-button {
     padding: 14px 30px 15px 55px;
     border-radius: 5px;
@@ -90,6 +98,7 @@ input {
     color: #FFFFFF;
     border: 2px solid #F188F2;
     background: #F188F2;
+    display: flex;
 
 
 
@@ -100,12 +109,15 @@ input {
 .header-intro-form-input {
     border-radius: 16px;
     background-color: white;
-    border: 0;
     color: black;
     border: 2px solid #A9A9A9;
     display: flex;
     column-gap: 4px;
+    width: 433px;
+    height: 49px;
+
 }
+
 
 .input-phone {
     display: flex;
@@ -126,12 +138,42 @@ input {
 
 }
 
+.header-intro-form-input img {
+    max-width: 10px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    bottom: -17px;
+    margin-left: 18px;
+}
 
-.header-intro-form-input  {
-    padding: 19px 300px 20px 18px;
+
+.header-intro-form-inputt  {
+    color: black;
+    display: flex;
+    column-gap: 4px;
+
+}
+
+.header-intro-form-inputt input {
+    border: 0;
+}
+
+
+.header-intro-form-inputt::placeholder,
+.input-phonee input::placeholder {
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+    
+
+
 
 
 }
+
+
 
 .header-link {
     color: var(--primary-color);
