@@ -11,68 +11,287 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav class="header-nav">
-                <div class="list-wrapper">
-                    <a href="#!" class="header-logo"><img src="img/header-logo.png" alt="logo"></a>
-                    <div class="header-btn-wrap">
-                        <button class="header-button"><img src="svg/katalog.svg" alt="">Каталог</button>
-
-                    </div>
-                    <form action="" class="header-form">
-                        <div class="header-intro-form-input input-phone">
-                            <img src="svg/search-svg.svg" alt="">
-                            <input placeholder="Поиск" type="text">
-                        </div>
-                    </form>
-
-                        
-                    <form action="" class="headerr-formm">
-                        <div class="header-intro-form-inputt input-phonee">
-                            <img src="svg/search 2.svg" alt="">
-                            <input placeholder="Поиск по сайту" type="text">
-                        </div>
-                    </form>
-                    <div class="header-rectangle-wrap">
-                        <img class="rectangle2" src="svg/rectangle2.svg" alt="">
-                    </div>
-                    
-                    <ul class="list">
-                        <li class="header-item"><a href="#!" class="header-link">Акции</a></li>
-                        <li class="header-item"><a href="#!" class="header-link">Доставка</a></li>
-                        <li class="header-item"><a href="#!" class="header-link">Контакты</a></li>
-                        <li class="header-item"><a href="#!" class="header-link">Галерея</a></li>
-                        <li class="header-item"><a href="#!" class="header-link">Отзывы</a></li>
-                        <img class="bag-logo" src="svg/bag.svg" alt="">
-                    </ul>
+            <!--===  NAV MENU TOP   ===-->
+            <nav class="header-nav-top">
+                <a href="" class="site-logo"><img src="./img/site-logo.png" alt=""></a>
+                <button type="button" class="header-btn">
+                    <span class="header-btn-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect x="5" y="7" width="11" height="2" rx="1" fill="white"></rect>
+                          <rect x="9" y="11" width="7" height="2" rx="1" fill="white"></rect>
+                        </svg>
+                    </span>
+                    <span class="header-btn-name">Каталог</span>
+                </button>
+                <div class="search-input">
+                    <i class="bx bx-search-alt-2"></i>
+                    <label for="search" style="display: none"></label>
+                    <input type="search" id="search" class="" placeholder="Поиск по сайту">
                 </div>
-                
-                <div class="header-list-wrapper">
-                    <ul class="header-list">
-                        <img class="header-logoo" src="img/header-logo.png" alt="#1">
-                        <li class="header-items"><a href="#!" class="header-link">Латексные шары</a></li>
-                        <li class="header-items"><a href="#!" class="header-link">Фольгированые шары</a></li>
-                        <li class="header-items"><a href="#!" class="header-link">Цифры</a></li>
-                        <li class="header-items"><a href="#!" class="header-link">3D Сферы</a></li>
-                        <li class="header-items"><a href="#!" class="header-link">Хромовые шары</a></li>
-                    </ul>
-
-                    <div class="header-text-wrap">
-                        <p class="header-text"><img src="svg/rectangle.svg" alt="">+7 861 204 24 46</p>
-                        <div class="header-logo-wrap">
-                            <img src="svg/instagram-svg.svg" alt="">
-                            <img src="svg/whatsapp-svg.svg" alt="">
-                        </div>
-                        <div class="header-a-wrap">
-                            <a class="header-aa" href="">Режим работы</a>
-                            <a class="header-a" href="">Круглосуточно</a>
-                        </div>
-                    </div>
+                <ul class="header-top-list">
+                    <li><a class="header-top-link" href="#">Акции</a></li>
+                    <li><a class="header-top-link" href="#">Доставка</a></li>
+                    <li><a class="header-top-link" href="#">Контакты</a></li>
+                    <li><a class="header-top-link" href="#">Галерея</a></li>
+                    <li><a class="header-top-link" href="#">Отзывы</a></li>
+                </ul>
+                <button type="button" class="header-percent"><img src="img/svg/percent-icon.svg" alt=""></button>
+                <button type="button" class="header-basket"><img src="img/svg/basket-icon.svg" alt=""></button>
+            </nav>
+            <!--===  NAV MENU BOTTOM   ===-->
+            <nav class="header-nav-bottom">
+                <a href="" class="site-logo-bottom"><img src="./img/site-logo.png" alt=""></a>
+                <ul class="header-bottom-list">
+                    <li><a href="#" class="header-link-bottom">Латексные шары</a></li>
+                    <li><a href="#" class="header-link-bottom">Фольгированые шары</a></li>
+                    <li><a href="#" class="header-link-bottom">Цифры</a></li>
+                    <li><a href="#" class="header-link-bottom">3D Сферы</a></li>
+                    <li><a href="#" class="header-link-bottom">Хромовые шары</a></li>
+                </ul>
+                <a href="#" class="header-phone-num"><i class="bx bx-chevron-down"></i>+7 861 204 24 46</a>
+                <div class="header-socials">
+                    <a href="#"><img src="./img/svg/instagram-icon.svg" alt=""></a>
+                    <a href="#"><img src="./img/svg/whatsapp-icon.svg" alt=""></a>
                 </div>
+                <p class="header-work-time">
+                    <span>Режим работы</span>
+                    <span>Круглосуточно</span>
+                </p>
             </nav>
         </div>
     </header>
+
+    <main>
+        <section class="balloon">
+            <div class="container">
+                <div class="balloon-wrapper">
+                    <div class="ballon-left">
+                        <h5 class="balloon-title">Распродажа <br> в честь Нового года!</h5>
+                        <div class="ballon-btn-wrap">
+                            <button class="ballon-btn">Все акции</button>
+                            <button class="ballon-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="balloon-right">
+                        <img src="img/balloon.png" alt="#1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="kategoriya">
+            <div class="container">
+                <div class="kategoriya-title-wrap">
+                    <h4 class="kategoriya-main-title">Популярные категории</h4>
+                    <a class="kategoriya-a" href="#1">смотреть всё <img src="svg/right-viev.svg" alt=""></a>
+                </div>
+                <div class="kategoriya-boxxer">
+                    <div class="kategoriya-box">
+                        <img src="img/3-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Баблобоксы</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/3-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Фонтаны с цифрами</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/3-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Готовые композиции</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/3-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Шарики, наборы, оформление <br> комнаты на выписку
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="kategoriya-boxxer">
+                    <div class="kategoriya-box">
+                        <img src="img/4-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Латексные шары</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/4-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Шарики на день рождения</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/4-ballon.png" alt="">
+                        <h4 class="kategoriya-title">Фольгированые шары</h4>
+                    </div>
+                    <div class="kategoriya-box">
+                        <img src="img/4-ballon.png" alt="">
+                        <h4 class="kategoriya-title">3D Сферы, Bubble</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prodaj">
+            <div class="container">
+                <div class="prodaj-title-wrap">
+                    <h4 class="prodaj-main-title">Лидеры продаж</h4>
+                    <a class="kategoriya-a" href="#1">смотреть всё <img src="svg/right-viev.svg" alt=""></a>
+                </div>
+                <div class="prodaj-boxxer">
+                    <div class="prodaj-wrapper">
+                        <div class="prodaj-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="prodaj-bottom-wrap">
+                                <h4 class="prodaj-title">1450р</h4>
+                                <p class="prodaj-text">1540р</p>
+                                <p class="prodaj-text2">-7%</p>
+                            </div>
+                            <h4 class="prodaj-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="prodaj-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="prodaj-bottom-wrap">
+                                <h4 class="prodaj-title">1450р</h4>
+                                <p class="prodaj-text">1540р</p>
+                                <p class="prodaj-text2">-7%</p>
+                            </div>
+                            <h4 class="prodaj-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="prodaj-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="prodaj-bottom-wrap">
+                                <h4 class="prodaj-title">1450р</h4>
+                                <p class="prodaj-text">1540р</p>
+                                <p class="prodaj-text2">-7%</p>
+                            </div>
+                            <h4 class="prodaj-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="prodaj-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="prodaj-bottom-wrap">
+                                <h4 class="prodaj-title">1450р</h4>
+                                <p class="prodaj-text">1540р</p>
+                                <p class="prodaj-text2">-7%</p>
+                            </div>
+                            <h4 class="prodaj-title">Композиция шаров на день рождения</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skidka">
+            <div class="container">
+                <div class="skidka-wrapper">
+                    <div class="skidla-left">
+                        <img src="img/left-woman.png" alt="">
+                    </div>
+                    <div class="skidka-right">
+                        <h5 class="skidka-title">Скидка 5% <span class="skidka-title2">на первый заказ</span></h5>
+                        <div class="input-wrapper">
+                            <form class="form-input" action="">
+                                <input placeholder="+7" type="number">
+                            </form>
+                            <button class="skidka-btn">Получить скидку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aksiya">
+            <div class="container">
+                <div class="aksiya-title-wrap">
+                    <h4 class="aksiya-main-title">Акции</h4>
+                    <a class="aksiya-a" href="#1">смотреть всё <img src="svg/right-viev.svg" alt=""></a>
+                </div>
+                <div class="aksiya-boxxer">
+                    <div class="aksiya-wrapper">
+                        <div class="aksiya-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="aksiya-bottom-wrap">
+                                <h4 class="aksiya-title">1450р</h4>
+                                <p class="aksiya-text">1540р</p>
+                                <p class="aksiya-text2">-7%</p>
+                            </div>
+                            <h4 class="kategoriya-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="aksiya-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="aksiya-bottom-wrap">
+                                <h4 class="aksiya-title">1450р</h4>
+                                <p class="aksiya-text">1540р</p>
+                                <p class="aksiya-text2">-7%</p>
+                            </div>
+                            <h4 class="kategoriya-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="aksiya-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="aksiya-bottom-wrap">
+                                <h4 class="aksiya-title">1450р</h4>
+                                <p class="aksiya-text">1540р</p>
+                                <p class="aksiya-text2">-7%</p>
+                            </div>
+                            <h4 class="kategoriya-title">Композиция шаров на день рождения</h4>
+                        </div>
+                        <div class="aksiya-box">
+                            <img src="img/5-ballon.png" alt="">
+                            <div class="aksiya-bottom-wrap">
+                                <h4 class="aksiya-title">1450р</h4>
+                                <p class="aksiya-text">1540р</p>
+                                <p class="aksiya-text2">-7%</p>
+                            </div>
+                            <h4 class="kategoriya-title">Композиция шаров на день рождения</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="img">
+            <div class="container">
+                <div class="img-title-wrap">
+                    <h4 class="img-title">Наши работы</h4>
+                </div>
+
+                <div class="img-wrapper">
+                    <img src="img/elephant.png" alt="">
+                    <img src="img/birthdau-ballon.png" alt="">
+                    <img src="img/woman-joker.png" alt="">
+                    <img src="img/elephant.png" alt="">
+                </div>
+                <div class="scroll-wrap">
+                    <img class="right-scroll" src="svg/right-scroll.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <a class="footer-a" href="#!">Контакты</a>
+                    <a class="footer-aa" href="#!">+7 918 346 57 47</a>
+                    <div class="footer-img-wrap">
+                        <div class="footer-img-wrapper">
+                            <img src="svg/big-inta.svg" alt="">
+                            <p class="footer-text">instagram</p>
+                        </div>
+                        <div class="footer-img-wrapper">
+                            <img src="svg/big-whatsapp.svg" alt="">
+                            <p class="footer-text">WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <a class="footer-a" href="">Адрес</a>
+                    <a class="footer-des" href="">Заветный <br> проезд Лазурный, д.11</a>
+                    <div class="footer-a-wrapper">
+                        <a class="footer-mini-a" href="">Режим работы</a>
+                        <a class="fooater-bottom-a" href="">Круглосуточно</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 
