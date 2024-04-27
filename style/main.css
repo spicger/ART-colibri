@@ -135,6 +135,8 @@ input {
     margin-left: 40px;
 }
 
+
+
 .header-nav-bottom {
     display: flex;
     align-items: center;
@@ -200,7 +202,10 @@ input {
 
 .balloon-wrapper {
     display: flex;
-    column-gap: 30px;
+    padding: 0 0 0 50px;
+    justify-content: space-between;
+
+
 }
 
 .ballon-left {
@@ -221,6 +226,7 @@ input {
     display: flex;
     margin-top: 40px;
 
+
 }
 
 .ballon-btn {
@@ -234,6 +240,14 @@ input {
     border: 0;
 
 
+}
+
+.ballon-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #2D2D2D;
+    padding: 25px 50px;
 }
 
 
@@ -304,6 +318,26 @@ input {
     align-items: center;
 }
 
+.kategoriya-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kategoriya-boxxer2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+.kategoriya-boxx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .prodaj {
     margin-top: 40px;
@@ -336,6 +370,13 @@ input {
     margin-left: 7px;
 }
 
+.prodaj-photo,
+.aksiya-photo {
+    border-radius: 50%;
+    border: 0.5px solid #FF32A1;
+    padding: 3.6px;
+}
+
 .prodaj-boxxer {
     margin-top: 20px;
 }
@@ -346,8 +387,6 @@ input {
 }
 
 .prodaj-box {
-    align-items: center;
-    display: flex;
     flex-direction: column;
 }
 
@@ -356,6 +395,12 @@ input {
     column-gap: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
+
+}
+
+.prodaj-text-wrap,
+.aksiya-text-wrap {
+    padding: 0px 41px 0px 24px;
 }
 
 .prodaj-title {
@@ -381,15 +426,38 @@ input {
 
 }
 
+.prodaj-img-wrap {
+    position: relative;
+}
 
-.prodaj-title {
+
+.prodaj-text-3 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #FF32A1;
+    position: absolute;
+    bottom: 35px;
+    left: 12px;
+    background-color: #FFF3FF;
+    padding: 5px;
+    border-radius: 6px;
+
+
+}
+
+
+
+
+
+.prodaj-title2 {
     font-size: 16px;
     font-weight: 500;
-    line-height: 20.8px;
-    color: var(--title-color);
-    max-width: 253px;
-    width: 100%;
+    color: var(--primary-color);
+
 }
+
+
 
 
 .skidka {
@@ -409,6 +477,8 @@ input {
     font-weight: 900;
     line-height: 108px;
     color: #FFFFFF;
+    max-width: 575px;
+    width: 100%;
 
 }
 
@@ -422,20 +492,43 @@ input {
 }
 
 .input-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
     margin-top: 46px;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari, Chrome, Opera, Samsung */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Edge, IE */
+    user-select: none;
+    /* Modern browsers */
+    pointer-events: none;
+    cursor: default;
+}
+
+.input-wrapper {
+    /* max-width: 473px; */
 }
 
 .input-wrapper input {
     background: #FFFFFF;
-    width: 473px;
-    height: 60px;
     border-radius: 25px;
     border: 0;
-    padding-left: 50px;
+    width: 100%;
+    padding: 25px;
 
+
+
+}
+
+.input-wrapper {
+    width: 100%;
 }
 
 .skidka-btn {
@@ -446,6 +539,10 @@ input {
     padding: 20px 95px;
     border: 2.39px solid #FFFFFF;
     border-radius: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 30px;
+
 
 
 
@@ -506,9 +603,8 @@ input {
 }
 
 .aksiya-title {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
     color: var(--primary-color);
 
 }
@@ -527,6 +623,36 @@ input {
     color: #FF32A1;
 
 }
+
+.aksiya-img-wrap {
+    position: relative;
+}
+
+
+.aksiya-text-3 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #FF32A1;
+    position: absolute;
+    bottom: 35px;
+    left: 14px;
+    background-color: #FFF3FF;
+    padding: 5px;
+    border-radius: 6px;
+
+
+}
+
+
+
+.aksiya-title2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+
+}
+
 
 .img {
     margin-top: 40px;

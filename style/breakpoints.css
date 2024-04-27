@@ -1,171 +1,758 @@
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
+        padding: 0 10px !important;
     }
 
     .header-percent,
     .site-logo-bottom {
         display: none;
     }
+
+    .kategoriya-boxx {
+        display: none !important;
+    }
+
+    .kategoriya-text2 {
+        display: none !important;
+    }
+
+    .prodaj-photo {
+        display: none !important;
+    }
+
+    .aksiya-photo {
+        display: none !important;
+    }
+
+    .prodaj-text-3 {
+        display: none !important; 
+    }
+
+    .aksiya-text-3 {
+        display: none !important;
+    }
+    
+
+    
+    
+
+
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
+        padding: 0 10px !important;
     }
+
+
 }
 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+        padding: 0 10px !important;
+    }
+
+    .balloon-title2 {
+        display: none !important;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1200px;
+        padding: 0 10px !important;
+    }
+
+    .ballon-title3 {
+        display: none !important;
+
     }
 }
 
 @media (min-width: 1400px) {
     .container {
         max-width: 1378px;
+        padding: 0 10px !important;
+
     }
+
+    .balloon-title2 {
+        display: none !important;
+    }
+
+
 }
 
 
 /* Breakpoints MAX WIDTH  */
 @media (max-width: 1399px) {
     .search-input {
-        max-width: 300px;
+        max-width: 300px !important;
     }
 
     .header-bottom-list {
-        column-gap: 20px;
+        column-gap: 20px !important;
     }
 
     .header-phone-num {
-        margin-left: 15px;
+        margin-left: 15px !important;
     }
 }
 
 @media (max-width: 1199px) {
     .header-btn {
-        margin: 0 15px;
+        margin: 0 15px !important;
     }
 
     .header-top-list {
-        column-gap: 15px;
+        column-gap: 15px !important;
     }
 
     .search-input {
-        max-width: 225px;
+        max-width: 225px !important;
     }
 
     .header-basket {
-        margin-left: 20px;
+        margin-left: 20px !important;
     }
 
     .header-work-time,
     .header-socials {
-        display: none
+        display: none !important;
+    }
+
+    .kategoriya-boxxer {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .prodaj-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        row-gap: 30px;
+    }
+
+    .aksiya-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        row-gap: 30px;
+    }
+
+    .footer-aa {
+        font-size: 45px !important;
+    }
+
+    .footer-a {
+        font-size: 35px !important;
+    }
+
+    .balloon-title {
+        font-size: 50px !important;
+    }
+
+
+    .skidka-btn {
+        margin-bottom: 20px !important;
+        font-size: 17.74px !important;
+    }
+
+    .ballon-btn {
+        margin-bottom: 10px !important;
+        padding: 25px 66px !important;
+    }
+
+    .ballon-left {
+        margin-top: 0 !important;
+    }
+
+
+
+
+    .ballon-btn-wrap {
+        flex-direction: column !important;
+        margin-top: -2px !important;
+    }
+
+
+
+
+    .ballon-button {
+        margin-bottom: 10px;
+    }
+
+    .skidka-title,
+    .skidka-title2 {
+        font-size: 75px !important;
+    }
+
+    .balloon-right img {
+        width: 100% !important;
     }
 
 }
 
+
+
+
+@media (max-width: 1280px) {
+    .kategoriya-boxxer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .prodaj-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .aksiya-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        row-gap: 20px;
+    }
+
+    .balloon-right img {
+        width: 100;
+    }
+
+    .ballon-btn-wrap {
+        margin-bottom: 20px !important;
+        margin-top: 0;
+        flex-direction: column !important;
+        row-gap: 20px;
+    }
+
+    .ballon-left {
+        margin-top: 0 !important;
+    }
+
+    .balloon-title {
+        font-size: 65px !important;
+
+    }
+
+    .input-wrapper {
+        margin-bottom: 20px !important;
+    }
+
+    .kategoriya-boxxer2 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .skidla-left img {
+        display: none !important;
+    }
+
+    .skidka-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .skidka-title {
+        text-align: center;
+    }
+}
+
+
+
+
+
 @media (max-width: 991px) {
+
     .header-top-list,
-    .header-phone-num{
-        display: none;
+    .header-phone-num {
+        display: none !important;
     }
 
     .search-input {
-        margin-left: auto;
+        margin-left: auto !important;
     }
+
     .header-bottom-list {
-        overflow-x: scroll;
-        column-gap: 15px;
+        overflow-x: scroll !important;
+        column-gap: 15px !important;
     }
+
     .header-link-bottom {
-        font-size: 14px;
-        font-weight: 500;
-        display: inline-flex;
-        width: max-content;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        display: inline-flex !important;
+        width: max-content !important;
         padding: 10px 15px;
-        border: 1px solid #EEEEEE;
-        border-radius: 29px;
-        line-height: 17.07px;
+        border: 1px solid #EEEEEE !important;
+        border-radius: 29px !important;
+        line-height: 17.07px !important;
     }
 
     .header-bottom-list::-webkit-scrollbar,
     .header-bottom-list::-webkit-scrollbar-thumb {
-        display: none;
+        display: none !important;
     }
+
+
+    .balloon-title {
+        max-width: 300px;
+        width: 100%;
+        font-size: 18px !important;
+    }
+
+
+    .prodaj-wrapper {
+        
+    }
+
+
+    .balloon-right img {
+        width: 100% !important;
+    }
+
+
+    .ballon-button {
+        display: none !important;
+    }
+
+    .skidka-title2,
+    .skidka-title {
+        text-align: center !important;
+    }
+
+
+    .skidla-left img {
+        display: none !important;
+    }
+
+    .input-wrapper {
+        align-items: center !important;
+    }
+
+    .aksiya-wrapper {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .prodaj-wrapper {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .kategoriya-boxxer {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .footer-a {
+        font-size: 25px !important;
+    }
+
+    .footer-aa {
+        font-size: 25px !important;
+    }
+
+    .footer-des {
+        font-size: 35px !important;
+    }
+
+    .aksiya-title-wrap {
+        justify-content: center;
+
+    }
+
+    .prodaj-img-wrap  {
+        width: 100%;
+        
+    }
+
+
+    .img-title {
+        text-align: center;
+    }
+
+    .prodaj-title-wrap {
+        justify-content: center;
+    }
+
+
+    .kategoriya-title-wrap {
+        justify-content: center;
+    }
+
+    .kategoriya-boxxer2 {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .skidla-left img {
+        display: none !important;
+
+    }
+
+    .footer-des {
+        font-size: 22px !important;
+        max-width: 385px !important;
+        width: 100%;
+    }
+
+    .kategoriya-box img {
+        width: 163px !important;
+
+    }
+
+    .kategoriya-title {
+        font-size: 14px !important;
+    }
+
+
+    .prodaj-title {
+        text-align: center !important;
+        font-size: 13px !important;
+    }
+
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+
+
+    .balloon-title {
+        font-size: 28px !important;
+        font-weight: 700 !important;
+        line-height: 36.4px !important;
+    }
+
+    .balloon-wrapper {
+        padding: 0 0 0 20px !important;
+    }
+
+    .ballon-btn {
+        padding: 15px 25px !important;
+        margin-top: 60px !important;
+    }
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+    .kategoriya-boxxer2 img {
+        width: 162px !important; 
+    }
+
+
 }
 
 @media (max-width: 575px) {
-    .container,
+
+
     .header-nav-bottom {
         padding: 0 15px;
+
     }
 
     .site-logo-bottom {
-        margin-right: 20px;
+        margin-right: 20px !important;
     }
 
     .header-nav-top {
-        padding: 0 0 15px 0;
+        padding: 0 0 15px 0 !important;
     }
 
     .header .container {
-        padding: 0;
+        padding: 0 !important;
     }
 
     .site-logo {
-        display: none;
+        display: none !important;
     }
 
     .header-btn {
-        padding: 15px;
-        margin: 0;
-        border-radius: 0;
-        background-color: white;
-        border: 1px solid #EEEEEE;
+        padding: 15px !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        background-color: white !important;
+        border: 1px solid #EEEEEE !important;
     }
 
     .header-btn .header-btn-icon {
-        padding: 10px;
-        display: flex;
-        background-color: white;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
+        padding: 10px !important;
+        display: flex !important;
+        background-color: white !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 5px !important;
     }
 
     .header-btn .header-btn-icon:hover {
-        background-color: #FEDDFF;
+        background-color: #FEDDFF !important;
     }
 
     .header-btn .header-btn-icon svg rect {
-        fill: #6D6D6D;
+        fill: #6D6D6D !important;
     }
 
     .header-btn span {
-        display: none;
+        display: none !important;
     }
 
     .search-input {
-        max-width: 100%;
-        margin-left: 0;
-        padding: 27px 25px;
-        border: 1px solid #EEEEEE;
-        border-radius: 0;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        padding: 27px 25px !important;
+        border: 1px solid #EEEEEE !important;
+        border-radius: 0 !important;
     }
 
     .header-basket,
     .header-percent {
-        border: 1px solid #EEEEEE;
-        padding: 25px;
-        margin-left: 0;
+        border: 1px solid #EEEEEE !important;
+        padding: 25px !important;
+        margin-left: 0 !important;
     }
+
+    .prodaj-title2 {
+        /* max-width: 160px !important; */
+        
+    }
+
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+    .aksiya-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .kategoriya-title {
+        text-align: center !important;
+    }
+
+
+    .aksiya-wrapper {
+        align-items: center !important;
+        display: flex !important;
+    }
+
+
+    .prodaj-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        justify-content: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .prodaj-boxxer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prodaj-title {
+        font-size: 16px !important;
+    }
+
+    .kategoriya-boxxer {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+
+    
+
+    .skidka-btn {
+        padding: 8px 74px !important;
+    }
+
+    .skidka-title,
+    .skidka-title2 {
+        font-size: 70px !important;
+
+    }
+
+    .footer-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        row-gap: 30px !important;
+    }
+
+    .footer-aa {
+        font-size: 31px !important;
+    }
+
+    .footer-a {
+        text-align: center !important;
+    }
+
+    .footer-img-wrap {
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    .footer-des {
+        text-align: center !important;
+    }
+
+    .footer-a-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+
+    .footer-mini-a {
+        text-align: center !important;
+    }
+
+    .fooater-bottom-a {
+        text-align: center !important;
+    }
+
+    .header-basket::after {
+        content: '3';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #FFF3FF;
+        border-radius: 6px;
+        padding: 2px 6px;
+        top: 16px;
+        right: 11px;
+
+    }
+
+
+    .kategoriya-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+
+
+    .kategoriya-main-title {
+        text-align: center !important;
+    }
+
+    .balloon-right img {
+        display: none !important;
+    }
+
+    .ballon-btn {
+        padding: 5px 15px !important;
+    }
+
+    .prodaj-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .prodaj-main-title {
+        text-align: center !important;
+    }
+
+    .aksiya-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 20px;
+    }
+
+    .footer-a {
+        font-size: 18px !important;
+    }
+
+    .footer-des {
+        font-size: 27px !important;
+    }
+
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+    .kategoriya-boxxer {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+
+    }
+
+    .kategoriya-boxx img,
+    .kategoriya-box img {
+        width: 130px !important;
+    }
+
+
+
+    .kategoriya-text1 {
+        display: none !important;
+
+    }
+
+    .kategoriya-boxxer2 {
+        display: none !important;
+    }
+
+    .kategoriya-a,
+    .aksiya-a {
+        display: none !important;
+    }
+
+
+    .prodaj-photo,
+    .aksiya-photo {
+        font-size: 5px !important;
+    }
+
+    .prodaj-text2 {
+        display: none !important; 
+    }
+
+    .prodaj-text-3 {
+        /* display: none !important; */
+
+    }
+    .aksiya-text2 {
+        display: none !important;
+    }
+
+    .prodaj-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .container {
+        padding: 0 10px !important;
+    }
+
+    .aksiya-wrapper {
+
+    }
+
+    .prodaj-text-wrap {
+        width: 100% !important;
+    }
+
+    .prodaj-title2 {
+        width: 100% !important;
+    }
+
+    .balloon-5 {
+        max-width: 175px !important;
+        width: 100% !important;
+    }
+
+
+
+
+
+
+
 }
