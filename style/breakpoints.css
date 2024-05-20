@@ -298,9 +298,12 @@
 
 
     .balloon-title {
-        max-width: 300px;
-        width: 100%;
-        font-size: 18px !important;
+        font-size: 36px !important;
+        text-align: center !important;
+    }
+
+    .ballon-btn  {
+        margin-top: 30px !important;
     }
 
 
@@ -366,6 +369,38 @@
         
     }
 
+    .aksiya-title2 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .ballon-btn-text {
+        display: none !important; 
+    }
+
+    .balloon-right img {
+        display: none !important;
+    }
+
+    .balloon-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .balloon-5 {
+        width: 380px !important;
+    }
+
+    .aksiya-text-wrap,
+    .prodaj-text-wrap   {
+        padding: 0 40px !important;
+    }
+
+    .prodaj-wrapper {
+        align-items: center !important;
+    }
+
 
     .img-title {
         text-align: center;
@@ -391,6 +426,10 @@
     .skidla-left img {
         display: none !important;
 
+    }
+
+    .aksiya-wrapper {
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 
     .footer-des {
@@ -442,6 +481,39 @@
 
     .kategoriya-boxxer2 img {
         width: 162px !important; 
+    }
+
+    .balloon-5 {
+        width: 100% !important;
+    }
+
+
+    .balloon-right img {
+        display: none !important;
+    }
+
+    .ballon-left {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .balloon-title {
+        text-align: center !important;
+        font-size: 43px !important;
+        margin-right: 0px !important;
+
+    }
+
+    .balloon-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0px !important;
+    }
+
+    .ballon-btn {
+        padding: 25px 66px !important;
     }
 
 
@@ -515,19 +587,24 @@
         margin-left: 0 !important;
     }
 
-    .prodaj-title2 {
-        /* max-width: 160px !important; */
-        
-    }
 
 
     .ballon-btn-text {
         display: none !important;
     }
 
+    .balloon-wrapper {
+        justify-content: center !important;
+    }
+
+    .balloon-title {
+        text-align: center !important;
+        font-size: 37px !important;
+    }
+
     .aksiya-wrapper {
-        display: flex !important;
-        flex-direction: column !important;
+        display: grid;
+        grid-template-columns: repeat(2,1fr) !important;
     }
 
     .kategoriya-title {
@@ -535,10 +612,6 @@
     }
 
 
-    .aksiya-wrapper {
-        align-items: center !important;
-        display: flex !important;
-    }
 
 
     .prodaj-wrapper {
@@ -576,6 +649,372 @@
     .skidka-title2 {
         font-size: 70px !important;
 
+    }
+
+    .footer-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        row-gap: 30px !important;
+    }
+
+    .footer-aa {
+        font-size: 31px !important;
+    }
+
+    .footer-a {
+        text-align: center !important;
+    }
+
+    .footer-img-wrap {
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    .footer-des {
+        text-align: center !important;
+    }
+
+    .footer-a-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+
+    
+    .aksiya-text-wrap,
+    .prodaj-text-wrap {
+        padding: 0 14px !important;
+        
+    }
+
+    .footer-mini-a {
+        text-align: center !important;
+    }
+
+    .prodaj-text-3 {
+        bottom: 14px !important;
+        left: 9px !important;
+    }
+
+    .fooater-bottom-a {
+        text-align: center !important;
+    }
+
+    .header-basket::after {
+        content: '3';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #FFF3FF;
+        border-radius: 6px;
+        padding: 2px 6px;
+        top: 16px;
+        right: 11px;
+
+    }
+
+
+    .kategoriya-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+
+
+    .kategoriya-main-title {
+        text-align: center !important;
+    }
+
+    .balloon-right img {
+        display: none !important;
+    }
+
+    .ballon-btn {
+        padding: 5px 15px !important;
+    }
+
+    .prodaj-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .prodaj-main-title {
+        text-align: center !important;
+    }
+
+    .aksiya-title-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 20px;
+    }
+
+    .balloon-5 {
+        width: 210px !important;
+    }
+
+    .footer-a {
+        font-size: 18px !important;
+    }
+
+    .footer-des {
+        font-size: 27px !important;
+    }
+
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+    .aksiya-title2  {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .kategoriya-boxxer {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+
+    }
+
+    .kategoriya-boxx img,
+    .kategoriya-box img {
+        width: 130px !important;
+    }
+
+
+
+    .kategoriya-text1 {
+        display: none !important;
+
+    }
+
+    .kategoriya-boxxer2 {
+        display: none !important;
+    }
+
+    .kategoriya-a,
+    .aksiya-a {
+        display: none !important;
+    }
+
+
+    .prodaj-photo,
+    .aksiya-photo {
+        font-size: 5px !important;
+    }
+
+    .prodaj-text2 {
+        display: none !important; 
+    }
+
+    .prodaj-text-3 {
+        /* display: none !important; */
+
+    }
+    .aksiya-text2 {
+        display: none !important;
+    }
+
+    .prodaj-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    .container {
+        padding: 0 10px !important;
+    }
+
+    .aksiya-wrapper {
+
+    }
+
+    .prodaj-text-wrap {
+        width: 100% !important;
+    }
+
+    .aksiya-text-3 {
+        bottom: 17px !important;
+        left: 8px !important;
+    }
+
+    .input-wrapper input {
+        width: 320px !important;
+        padding: 17px !important;
+    }
+
+    .skidka-btn {
+        width: 320px !important;
+    }
+
+    .input-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 449px) {
+
+
+    .header-nav-bottom {
+        padding: 0 15px;
+
+    }
+
+    .site-logo-bottom {
+        margin-right: 20px !important;
+    }
+
+    .header-nav-top {
+        padding: 0 0 15px 0 !important;
+    }
+
+    .header .container {
+        padding: 0 !important;
+    }
+
+    .site-logo {
+        display: none !important;
+    }
+
+    .header-btn {
+        padding: 15px !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        background-color: white !important;
+        border: 1px solid #EEEEEE !important;
+    }
+
+    .header-btn .header-btn-icon {
+        padding: 10px !important;
+        display: flex !important;
+        background-color: white !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 5px !important;
+    }
+
+    .header-btn .header-btn-icon:hover {
+        background-color: #FEDDFF !important;
+    }
+
+    .balloon-wrapper {
+        padding: 0px !important;
+    }
+
+    .header-btn .header-btn-icon svg rect {
+        fill: #6D6D6D !important;
+    }
+
+    .header-btn span {
+        display: none !important;
+    }
+
+    .search-input {
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        padding: 27px 25px !important;
+        border: 1px solid #EEEEEE !important;
+        border-radius: 0 !important;
+    }
+
+    .header-basket,
+    .header-percent {
+        border: 1px solid #EEEEEE !important;
+        padding: 25px !important;
+        margin-left: 0 !important;
+    }
+
+    .prodaj-title2 {
+         width: 100% !important;
+        
+    }
+
+
+
+    .prodaj-bottom-wrap {
+    }
+
+
+    .ballon-btn-text {
+        display: none !important;
+    }
+
+    .aksiya-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .kategoriya-title {
+        text-align: center !important;
+    }
+
+
+    .aksiya-wrapper {
+        align-items: center !important;
+        display: flex !important;
+    }
+
+
+    .prodaj-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        justify-content: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .balloon-5 {
+        width: 100% !important;
+    }
+    .aksiya-img-wrap img {
+        width: 100% !important;
+    }
+
+    .prodaj-boxxer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prodaj-title {
+        font-size: 16px !important;
+    }
+
+    .kategoriya-boxxer {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+
+    
+
+    .skidka-btn {
+        padding: 8px 74px !important;
+    }
+
+    .skidka-title,
+    .skidka-title2 {
+        font-size: 70px !important;
+
+    }
+
+    .aksiya-title2 {
+        font-size: 16px !important;
+        font-weight: 500;
     }
 
     .footer-wrapper {
@@ -648,6 +1087,19 @@
 
     .ballon-btn {
         padding: 5px 15px !important;
+    }
+
+    .ballon-btn {
+        width: 256px !important;
+    }
+
+    .ballon-left {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .balloon-title {
+        margin-right: 0px !important;
     }
 
     .prodaj-title-wrap {
@@ -725,7 +1177,7 @@
 
     .prodaj-wrapper {
         display: grid !important;
-        grid-template-columns: repeat(2,1fr) !important;
+        grid-template-columns: repeat(1,1fr) !important;
     }
 
     .container {
@@ -740,14 +1192,7 @@
         width: 100% !important;
     }
 
-    .prodaj-title2 {
-        width: 100% !important;
-    }
 
-    .balloon-5 {
-        max-width: 175px !important;
-        width: 100% !important;
-    }
 
 
 
