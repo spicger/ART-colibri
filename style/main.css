@@ -516,9 +516,6 @@ input {
     cursor: default;
 }
 
-.input-wrapper {
-    /* max-width: 473px; */
-}
 
 .input-wrapper input {
     background: #FFFFFF;
